@@ -209,6 +209,8 @@ function onClickPageBtn() {
             loadVideosForUI(newPageNumber - 1);
         }
     }
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // Function to initialize events for page prev-next buttons
